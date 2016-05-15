@@ -2,13 +2,8 @@
     render: function() {
         return(
             <div className="commentBox">
-                Hello world, I am a comment box
+                Hello world, I am a comment box {this.props.name}
             </div>
         );
     }
 });
-
-ReactDOM.render(
-    <CommentBox/>,
-    document.getElementById("content")
-);

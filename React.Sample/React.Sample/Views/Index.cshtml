@@ -1,6 +1,9 @@
 ﻿@using System.Web.Optimization
+@using Cassette.Views
+@using React.Web.Mvc
 @{
     Layout = null;
+    Bundles.Reference("main.js");
 }
 
 <!DOCTYPE html>
@@ -12,11 +15,14 @@
 </head>
 <body>
 <div id="content">
-
+    @Html.React("CommentBox", new
+    {
+        name = "test"
+    });
 </div>
     <script src="https://fb.me/react-15.0.1.js"></script>
     <script src="https://fb.me/react-dom-15.0.1.js"></script>
-    @Bundles.RenderScripts("main.js")
+    @Bundles.RenderScripts()
     @Html.ReactInitJavaScript()
 
 </body>
