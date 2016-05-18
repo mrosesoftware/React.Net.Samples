@@ -1,29 +1,29 @@
-﻿@using System.Web.Optimization
-@using Cassette.Views
+﻿@model React.Sample.Models.CommentListViewModel
+@using System.Web.Optimization
 @using React.Web.Mvc
+
 @{
     Layout = null;
-    Bundles.Reference("main.js");
 }
 
 <!DOCTYPE html>
 
 <html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title></title>
-</head>
-<body>
-<div id="content">
-    @Html.React("CommentBox", new
-    {
-        name = "test"
-    });
-</div>
-    <script src="https://fb.me/react-15.0.1.js"></script>
-    <script src="https://fb.me/react-dom-15.0.1.js"></script>
-    @Bundles.RenderScripts()
-    @Html.ReactInitJavaScript()
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title></title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="content">
+            @Html.React("CommentBox", new
+            {
+                data = Model
+            })
+        </div>
+        @Scripts.Render("~/js/react")
+        @Scripts.Render("~/js/jsx")
+        @Html.ReactInitJavaScript()
 
-</body>
+    </body>
 </html>

@@ -18,11 +18,6 @@ D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\React.Sample.dll.conf
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\React.Sample.dll
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\React.Sample.pdb
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\AjaxMin.dll
-D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\Cassette.Aspnet.dll
-D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\Cassette.dll
-D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\Cassette.MSBuild.dll
-D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\Cassette.Sass.dll
-D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\Cassette.Views.dll
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\ClearScript.dll
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\IronRuby.dll
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\IronRuby.Libraries.dll
@@ -51,8 +46,6 @@ D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\System.Web.Webpages.d
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\System.Web.Webpages.Razor.dll
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\VroomJs.dll
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\WebActivatorEx.dll
-D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\Cassette.xml
-D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\Cassette.Views.xml
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\JSPool.xml
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\Newtonsoft.Json.xml
@@ -76,3 +69,5 @@ D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\System.Web.Optimizati
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\WebGrease.dll
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\Antlr3.Runtime.pdb
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\System.Web.Optimization.xml
+D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\System.Web.Optimization.React.dll
+D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\System.Web.Optimization.React.xml

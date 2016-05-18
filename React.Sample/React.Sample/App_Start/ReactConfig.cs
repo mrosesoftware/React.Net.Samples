@@ -16,7 +16,9 @@ namespace React.Sample
 			//	.AddScript("~/Scripts/First.jsx")
 			//	.AddScript("~/Scripts/Second.jsx");
 
-		    ReactSiteConfiguration.Configuration = new ReactSiteConfiguration().AddScript("~/Scripts/jsx/Tutorial.jsx");
+            ReactSiteConfiguration.Configuration = new ReactSiteConfiguration()
+                .AddScript("~/Scripts/jsx/Tutorial.jsx")
+                .AddScript("~/Scripts/jsx/HelloWorld.react.jsx");
 
 
 		    // If you use an external build too (for example, Babel, Webpack,
