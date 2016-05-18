@@ -1,0 +1,29 @@
+﻿@model MPD.Electio.SDK.DataTypes.Consignments.Consignment
+@using System.Web.Optimization
+@using React.Web.Mvc
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div id="content">
+        @Html.React("Consignment", new
+       {
+           initialData = Model
+       })
+    </div>
+    @Scripts.Render("~/js/react")
+    @Scripts.Render("~/js/jsx")
+    @Html.ReactInitJavaScript()
+
+</body>
+</html>

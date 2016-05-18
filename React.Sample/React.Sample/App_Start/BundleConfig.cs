@@ -7,6 +7,7 @@ namespace React.Sample
     {
         public static void RegisterBundles(BundleCollection bundles)
         {
+            //don't do this in the real world...separate into functional areas instead
             bundles.Add(new BabelBundle("~/js/jsx")
                 .Include("~/Scripts/jsx/*.jsx"));
 

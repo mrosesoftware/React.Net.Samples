@@ -71,3 +71,9 @@ D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\Antlr3.Runtime.pdb
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\System.Web.Optimization.xml
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\System.Web.Optimization.React.dll
 D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\System.Web.Optimization.React.xml
+D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.dll
+D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll
+D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\MPD.Electio.SDK.dll
+D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.xml
+D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.xml
+D:\Dev\Net.Core\React.Sample\React.Sample\React.Sample\bin\MPD.Electio.SDK.xml
