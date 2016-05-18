@@ -1,10 +1,10 @@
 ﻿var CommentBox = React.createClass({
     getInitialState: function() {
-        return { data: this.props.data.Comments };
+        return { data: this.props.initialData};
     },
     loadComments: function() {
         var xhr = new XMLHttpRequest();
-        xhr.open('get', '/comments', true);
+        xhr.open('get', this.props.url, true);
         xhr.onload = function() {
             var data = JSON.parse(xhr.responseText);
             this.setState({ data: data.Comments });
@@ -22,7 +22,7 @@
         data.append('Text', comment.Text);
 
         var xhr = new XMLHttpRequest();
-        xhr.open('post', '/comments', true);
+        xhr.open('post', this.props.submitUrl, true);
         xhr.onload = function() {
             this.loadComments();
         }.bind(this);

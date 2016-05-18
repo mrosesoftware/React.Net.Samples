@@ -27,7 +27,7 @@ namespace React.Sample.Controllers
         [OutputCache(Location = OutputCacheLocation.None)]
         [HttpGet]
         [Route]
-        public ActionResult Index()
+        public ActionResult GetComments()
         {
             return Json(_model, JsonRequestBehavior.AllowGet);
         }

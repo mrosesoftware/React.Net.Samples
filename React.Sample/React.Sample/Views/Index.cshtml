@@ -18,7 +18,10 @@
         <div id="content">
             @Html.React("CommentBox", new
             {
-                data = Model
+                initialData = Model.Comments,
+                url = Url.Action("GetComments", "Comments"),
+                submitUrl = Url.Action("AddComment", "Comments"),
+                pollInterval = 5000
             })
         </div>
         @Scripts.Render("~/js/react")
